@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="script.js" defer />
+  </head>
+  <body>
+    <div class="mid yellow">
+      <div class="line line1"></div>
+      <div class="line line2"></div>
+      <div class="line line3"></div>
+      <div class="dot dot1"></div>
+      <div class="dot dot2"></div>
+      <div class="dot dot3"></div>
+    </div>
+    <style>
+      body {
+        background: #1a4341;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        height: 100%;
+      }
+
+      .yellow {
+        background-color: #f3ac3c;
+      }
+      .mid {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: 15%;
+        margin-left: 45%;
+        position: fixed;
+      }
+      .dot {
+        position: absolute;
+        background: #998235;
+      }
+      .dot1 {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        left: 20px;
+        top: 20px;
+      }
+      .dot2 {
+        width: 13px;
+        height: 13px;
+        border-radius: 50%;
+        left: 50px;
+        top: 10px;
+      }
+      .dot3 {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        left: 40px;
+        bottom: 15px;
+      }
+      .line {
+        position: absolute;
+        width: 10px;
+        height: 180px;
+        border-radius: 5px;
+        left: 45px;
+        top: -50px;
+        background: #f3ac3c;
+      }
+      .line1 {
+        left: 45px;
+        top: -50px;
+      }
+      .line2 {
+        transform: rotate(-60deg);
+        top: -40px;
+        left: 52px;
+      }
+      .line3 {
+        transform: rotate(60deg);
+        top: -38px;
+        left: 48px;
+      }
+    </style>
+    <script src="script.js"></script>
+  </body>
+</html>
